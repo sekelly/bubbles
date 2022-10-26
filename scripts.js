@@ -2,9 +2,9 @@ const VideoSDK = window.WebVideoSDK.default
 
 let zmClient = VideoSDK.createClient()
 
-let signatureEndpoint = 'https://videosdk-sample-signature.herokuapp.com'
-let sessionName = 'bubbles2'
-let sessionPasscode = 'test123'
+let signatureEndpoint = 'https://vsdksignature.herokuapp.com/'
+let sessionName = 'bubba'
+let sessionPasscode = 'bubbles'
 let userName = 'Participant' + Math.floor(Math.random() * 100)
 let role = 1
 
